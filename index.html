@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamogelo Kotu | Data Analyst Portfolio</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        background: #eef2f7;
+        color: #1e293b;
+    }
+
+    header {
+        text-align: center;
+        padding: 80px 20px;
+        background: #1e293b;
+        color: #f1f5f9;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    header p {
+        margin-top: 10px;
+        color: #cbd5f5;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        color: #2563eb;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #dbeafe;
+        transition: 0.3s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+        margin-top: 0;
+        color: #2563eb;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .skills span {
+        display: inline-block;
+        background: #dbeafe;
+        color: #1e40af;
+        padding: 8px 12px;
+        margin: 5px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #1e293b;
+        color: #cbd5f5;
+        margin-top: 40px;
+    }
+
+    a {
+        color: #2563eb;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Kamogelo Kotu</h1>
+    <p>Aspiring Data Analyst</p>
+    <p>I transform raw data into meaningful insights using SQL, Excel, and data visualization tools.</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Computing with Finance graduate with hands-on experience in SQL data cleaning and exploratory data analysis.
+            I enjoy uncovering patterns in data and transforming them into actionable insights. Currently expanding my
+            skills in Power BI and data visualization.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Global Layoffs Data Cleaning</h3>
+                <p><strong>Tools:</strong> MySQL</p>
+                <ul>
+                    <li>Removed duplicates using window functions</li>
+                    <li>Handled missing data with self-joins</li>
+                    <li>Standardized inconsistent values</li>
+                    <li>Converted date formats for analysis</li>
+                </ul>
+                <p>Prepared raw dataset for analysis by improving data quality and consistency.</p>
+            </div>
+
+            <div class="card">
+                <h3>Global Layoffs Data Analysis</h3>
+                <p><strong>Tools:</strong> MySQL</p>
+                <ul>
+                    <li>Analyzed layoffs by company, country, and industry</li>
+                    <li>Identified yearly and monthly trends</li>
+                    <li>Built rolling totals using window functions</li>
+                    <li>Ranked top companies using DENSE_RANK()</li>
+                </ul>
+                <p>Generated insights into global layoff trends and patterns.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>SQL (MySQL)</span>
+            <span>Data Cleaning</span>
+            <span>Exploratory Data Analysis</span>
+            <span>Excel</span>
+            <span>Power BI (Learning)</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: kamogelokotu16@gmail.com</p>
+        <p>Phone: +267 76962977</p>
+        <p>GitHub: <a href="#">Add your GitHub link</a></p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Kamogelo Kotu</p>
+</footer>
+
+</body>
+</html>
